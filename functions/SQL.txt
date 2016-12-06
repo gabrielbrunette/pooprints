@@ -1,0 +1,3 @@
+
+
+CREATE TABLE `pooprints_db`.`users` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `first_name` VARCHAR(255) NOT NULL , `email` VARCHAR(255) NOT NULL , `active` TINYINT(4) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
